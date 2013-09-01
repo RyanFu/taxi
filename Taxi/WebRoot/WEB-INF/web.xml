@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <context-param>
+  	<param-name>isFirstTime</param-name>
+  	<param-value>yes</param-value>
+  </context-param>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GeoPointServlet</servlet-name>
+    <servlet-class>com.ysm.servlet.GeoPointServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCheck</servlet-name>
+    <servlet-class>com.ysm.servlet.LoginCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarHandler</servlet-name>
+    <servlet-class>com.ysm.servlet.CarHandler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserHandler</servlet-name>
+    <servlet-class>com.ysm.servlet.UserHandler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AcceptResp</servlet-name>
+    <servlet-class>com.ysm.servlet.AcceptResp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserResp</servlet-name>
+    <servlet-class>com.ysm.servlet.UserResp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefuseResp</servlet-name>
+    <servlet-class>com.ysm.servlet.RefuseResp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+    <servlet-class>com.ysm.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>com.ysm.servlet.UserRegister</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GeoPointServlet</servlet-name>
+    <url-pattern>/GeoPointServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCheck</servlet-name>
+    <url-pattern>/LoginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarHandler</servlet-name>
+    <url-pattern>/CarHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserHandler</servlet-name>
+    <url-pattern>/UserHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AcceptResp</servlet-name>
+    <url-pattern>/AcceptResp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserResp</servlet-name>
+    <url-pattern>/UserResp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefuseResp</servlet-name>
+    <url-pattern>/RefuseResp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+</web-app>

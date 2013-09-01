@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <FrameLayout
+        android:orientation="vertical" 
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        >
+        <com.baidu.mapapi.MapView android:id="@+id/bmapsView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:clickable="true" 
+		/>
+	<Button 
+	    android:id="@+id/but"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/gongkai"
+	    />
+    </FrameLayout>
+    
+	<Button 
+	    android:id="@+id/downMap"
+        android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/down"
+      	android:layout_alignParentRight="true"
+      	android:layout_alignParentBottom="true"
+      	android:paddingLeft="10dip"
+      	android:paddingRight="10dip"
+        />
+	<Button 
+	    android:id="@+id/upMap"
+        android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/up"
+      	android:layout_above="@id/downMap"
+      	android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

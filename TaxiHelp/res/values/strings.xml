@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">点击屏幕确定目的地</string>
+    <string name="app_name">打车灵-乘客端</string>
+    <string name="label_name">打车灵-乘客端</string>
+    <string name="user">用户：</string>
+    <string name="password">密码：</string>
+    
+    <string
+		name="preference_key_iat_engine">iat_engine</string>
+	<string
+		name="preference_title_iat_engine">听写引擎</string>
+	<string-array
+		name="preference_entries_iat_engine">
+		<item>短信转写</item>
+		<item>地图搜索</item>
+		<item>热词搜索</item>
+		<item>视频搜索</item>
+	</string-array>
+	<string-array
+		name="preference_values_iat_engine">
+		<item>sms</item>
+		<item>poi</item>
+		<item>vsearch</item>
+		<item>video</item>
+	</string-array>
+	<string
+		name="preference_default_iat_engine">sms</string>
+	<string
+		name="preference_key_poi_province">poi_province</string>
+	<string
+		name="preference_key_poi_city">poi_city</string>
+	<string
+		name="preference_default_poi_province">全选</string>
+	<string
+		name="preference_default_poi_city">全选</string>
+	<string
+		name="preference_key_iat_rate">iat_rate</string>
+	<string
+		name="preference_default_iat_rate">rate16k</string>
+	
+	<string
+		name="tts_toast_format"
+		formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
+	<string
+		name="preference_key_tts_volume">tts_volume</string>
+	<string
+		name="preference_key_tts_speed">tts_speed</string>
+	<string
+		name="preference_default_tts_role">xiaoyan</string>
+	<string
+		name="preference_key_tts_music">tts_music</string>
+	<string
+		name="preference_default_tts_music">0</string>
+	<string
+		name="preference_key_tts_role">tts_role</string>
+	<string
+		name="preference_key_tts_show">tts_show</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UserTaxiActivity!</string>
+    <string name="app_name">打车灵-司机端</string>
+    <string name="label_name">打车灵-司机端</string>
+    <string name="user">用户：</string>
+    <string name="password">密码：</string>
+    <string name="butText">公开我的位置</string>
+    
+    
+    <string
+		name="tts_toast_format"
+		formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
+	<string
+		name="preference_key_tts_volume">tts_volume</string>
+	<string
+		name="preference_key_tts_speed">tts_speed</string>
+	<string
+		name="preference_default_tts_role">xiaoyan</string>
+	<string
+		name="preference_key_tts_music">tts_music</string>
+	<string
+		name="preference_default_tts_music">0</string>
+	<string
+		name="preference_key_tts_role">tts_role</string>
+	<string
+		name="preference_key_tts_show">tts_show</string>
+    
+
+</resources>

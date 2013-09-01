@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Taxi"
+  id="myeclipse.1343356472027"
+  context-root="/Taxi"
+  j2ee-spec="5.0"
+  archive="Taxi.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

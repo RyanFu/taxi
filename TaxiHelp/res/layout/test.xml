@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@null"
+	>
+	
+    <LinearLayout 
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:orientation="vertical"
+      >
+	
+	
+  	<LinearLayout 
+        android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#000"
+        >
+        <TextView
+    	    android:id="@+id/end"
+	    	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="18dip"
+			android:text="目的地：" 
+			android:layout_gravity="center_vertical"
+			/>
+		<EditText
+	    	android:id="@+id/des" 
+	    	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:inputType="text"
+			android:textSize="18dip" 
+			android:text="@string/hello" 
+			android:layout_weight="1"
+			android:maxLines="1"
+			android:layout_gravity="center_vertical"
+			/>
+		<Button 
+		    android:id="@+id/speak"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speak"
+            android:gravity="center|bottom"
+            android:text="语音"
+            android:textColor="#fff"
+		    />
+    </LinearLayout>
+    
+    <com.qinyuan.activity.MapViewClick
+ 		android:id="@+id/bmapsView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:clickable="true" 
+		/>
+    
+    </LinearLayout>
+    
+    
+     <LinearLayout 
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:id="@+id/bottom"
+      	android:orientation="horizontal"
+    	android:layout_alignParentBottom="true"
+    	android:background="#000"
+      >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me"
+            android:button="@null"
+            android:gravity="center|bottom"
+            android:checked="true"
+            android:text="我的位置"
+			android:textSize="10dip"
+             />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/lukuang"
+            android:button="@null"
+            android:gravity="center|bottom"
+            android:text="路况"
+            android:textSize="10dip"
+             /> 
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/dache1"
+            android:text="我要打车"
+            android:gravity="center|bottom"
+            android:textSize="10dip"
+             />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/more"
+            android:text="更多"
+            android:gravity="center|bottom"
+            android:textSize="10dip"
+             />
+        
+   </LinearLayout>
+	
+	<Button 
+	    android:id="@+id/downMap"
+        android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/down"
+      	android:layout_above="@id/bottom"
+      	android:layout_alignParentRight="true"
+      	android:paddingLeft="10dip"
+      	android:paddingRight="10dip"
+        />
+	
+	<Button 
+	    android:id="@+id/upMap"
+        android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/up"
+      	android:layout_above="@id/downMap"
+      	android:layout_alignParentRight="true"
+        />
+	
+	
+</RelativeLayout>

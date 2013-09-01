@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="36dip"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="30dip"
+         />
+    
+    <EditText 
+        android:id="@+id/et1"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_toRightOf="@id/tv1"
+        />
+    
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="36dip"
+        android:layout_below="@id/tv1"
+        android:layout_marginLeft="30dip"
+         />
+    
+    <EditText 
+        android:id="@+id/et2"
+        android:password="true"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et1"
+        android:layout_toRightOf="@id/tv2"
+        />
+    
+    <Button 
+        android:id="@+id/but1"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="100dip"
+        android:layout_marginLeft="100dip"
+        />
+
+</RelativeLayout>
